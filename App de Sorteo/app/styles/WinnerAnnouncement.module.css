@@ -1,0 +1,99 @@
+.winnerAnnouncement {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+  }
+  
+  .content {
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    width: 500px;
+  }
+  
+  .winnerTitle {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .winnerInfo {
+    margin-bottom: 2rem;
+  }
+  
+  .winnerName {
+    font-size: 2.5rem;
+    color: #3498db;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .winnerNumber {
+    font-size: 1.5rem;
+    color: #27ae60;
+    margin-bottom: 0.5rem;
+  }
+  
+  .winnerPrize {
+    font-size: 1.8rem;
+    color: #e74c3c;
+    margin-top: 1rem;
+  }
+  
+  .prizeName {
+    display: block;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #f1c40f, #e67e22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .celebration {
+    font-size: 4rem;
+    margin: 1.5rem 0;
+  }
+  
+  .congratsMessage {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+    font-style: italic;
+  }
+  
+  .closeButton {
+    padding: 0.75rem 2rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .closeButton:hover {
+    background-color: #2980b9;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  

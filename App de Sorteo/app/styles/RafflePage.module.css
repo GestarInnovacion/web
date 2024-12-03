@@ -1,0 +1,8 @@
+\`\`\`css
+.noMoreWinners {
+  font-size: 1.5rem;
+  color: #ffd700;
+  text-align: center;
+  margin-top: 2rem;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}

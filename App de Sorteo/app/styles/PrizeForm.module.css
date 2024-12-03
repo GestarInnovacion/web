@@ -1,0 +1,100 @@
+.prizeForm {
+    background: linear-gradient(135deg, rgba(25, 25, 112, 0.8), rgba(72, 61, 139, 0.8));
+    box-shadow: 0 0 30px rgba(138, 43, 226, 0.7);
+    padding: 2rem;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .formTitle {
+    font-size: 2rem;
+    color: #ffd700;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    color: #ffd700;
+  }
+  
+  .inputWrapper {
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #9370db;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #ffd700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+  }
+  
+  .input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .rangeInputs {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 0.75rem;
+    background: linear-gradient(45deg, #9370db, #8a2be2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .submitButton:hover {
+    background: linear-gradient(45deg, #8a2be2, #9370db);
+    box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+  }
+  
+  .buttonIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  @keyframes glowing {
+    0% { box-shadow: 0 0 5px rgba(138, 43, 226, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(138, 43, 226, 0.8); }
+    100% { box-shadow: 0 0 5px rgba(138, 43, 226, 0.5); }
+  }
+  
+  .prizeForm {
+    animation: glowing 3s infinite;
+  }
+  
+  
